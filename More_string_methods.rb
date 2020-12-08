@@ -59,7 +59,7 @@ puts name
 puts name.lstrip
 =end
 
-###############################################
+################################################
 =begin
 ## rstrip -> Remove the white spaces from the right side of the string
 

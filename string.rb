@@ -1,4 +1,4 @@
-## Class
+### Class
 name = 'Siddhartha Singh'
 puts name
 
