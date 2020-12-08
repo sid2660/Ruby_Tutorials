@@ -12,8 +12,8 @@ puts name, address
 # print - Display the output in same line
 # puts - Display the output in new line 
 
-city = "New York City"
-# print city
+# City = "New York City"
+# print City
 
 state = "New York"
 # print state
