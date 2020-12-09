@@ -8,3 +8,4 @@ Learning tutorials of Ruby
 3. More string Methods 
 4. Integer in ruby 
 5. Integer Methods
+6. Condition Executuion if & else
