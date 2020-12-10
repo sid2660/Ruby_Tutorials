@@ -13,8 +13,24 @@
 x = 15
 if x < 0
     puts "Negative Number"
-elseif x > 0
+elsif x > 0
     puts "Positive Number"
 else
-    puts "Zero"
+    puts "Zero!"
 end
+
+#####################################################################################
+=begin
+
+.__________________________________________________.
+|       |   Condition1  |   Condition2  |   Result |
+|-------|---------------|---------------|----------|
+| &&    |    True       |     True      |    True  |
+| &&    |    False      |     True      |    False |
+| ||(OR)|    True       |     False     |    True  |
+| ||(OR)|    False      |     True      |    True  |
+| ==    |               |               |  Equal to|
+| !=    |               |               | Not Equal|
+'--------------------------------------------------'
+
+=end
