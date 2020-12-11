@@ -1,15 +1,20 @@
 ## Condition Executuion if & else
-# if-else conditional execution
+
+## if-else conditional execution
+
 
 # Weather = "Raining"
-    
 # if Weather == "Raining"
 #     puts "I am staying home"
 # else
 #     puts "I am going out for a walk"
 # end
 
-#####
+
+
+## If-else-if execution
+
+
 # x = 15
 # if x < 0
 #     puts "Negative Number"
@@ -36,7 +41,10 @@
 
 #################################################################
 
+
+
 ## Conditional Expression - ||(OR)
+
 
 # account_balance = 1000000
 # age = 75
@@ -47,9 +55,11 @@
 # end
 
 
-####################################################################
+
 
 ### Conditional Expression - && (AND)
+
+
 
 grade = 4.1
 
@@ -64,3 +74,4 @@ elsif grade > 1.5 && grade < 3.0
 else
 	puts "You failed the class."
 end
+
