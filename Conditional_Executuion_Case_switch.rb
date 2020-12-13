@@ -33,7 +33,7 @@
 
 ####################
 
-credit_score = 749
+credit_score = 805
 
 case(credit_score)
 	when 750..850
