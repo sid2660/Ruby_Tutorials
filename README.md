@@ -26,4 +26,5 @@ ________________________________________________________________________________
 | 5.| Integer Methods                  | 
 | 6.| Condition Executuion if & else   |
 | 7.| String Interpolation             |
+| 8.| Array In Ruby                    |
 '---'----------------------------------'
