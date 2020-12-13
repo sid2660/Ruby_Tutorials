@@ -27,4 +27,5 @@ ________________________________________________________________________________
 | 6.| Condition Executuion if & else   |
 | 7.| String Interpolation             |
 | 8.| Array In Ruby                    |
+| 9.| Looping For/While/Until          |
 '---'----------------------------------'
