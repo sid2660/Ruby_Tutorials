@@ -16,17 +16,32 @@
 # 		puts "Failed"
 # end
 
-##########
+#####################
 
-price = 15000
+# price = 15000
 
-case(price)
-	when 10000
-		puts "1 BHK"
-	when 15000
-		puts "2 BHK"
-	when 20000 
-		puts "3 BHK"
+# case(price)
+# 	when 10000
+# 		puts "1 BHK"
+# 	when 15000
+# 		puts "2 BHK"
+# 	when 20000 
+# 		puts "3 BHK"
+# 	else
+# 		puts "4 BHK"
+# end
+
+####################
+
+credit_score = 749
+
+case(credit_score)
+	when 750..850
+		puts "You are pre-approved for interest rate of 3.00"
+	when 650..749
+		puts "You are pre-approved for intrest rate of 4.00"
+	when 500..649
+		puts "You are pre-approved for intrest rate of 6.00"
 	else
-		puts "4 BHK"
+		puts "You are Not APPROVED for any rate"
 end
