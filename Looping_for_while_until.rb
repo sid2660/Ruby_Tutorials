@@ -58,6 +58,8 @@
 for i in 1..10
 	if i % 2 == 0
 		p "#{i} is an even number"
+	else
+		p "#{i} is odd number"
 	end
 end
 
