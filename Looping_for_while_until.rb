@@ -55,17 +55,34 @@
 ##
 ## For loop - To find even number from 1 to 10.
 
-for i in 1..10
-	if i % 2 == 0
-		p "#{i} is an even number"
-	else
-		p "#{i} is odd number"
-	end
-end
+# for i in 1..10
+# 	if i % 2 == 0
+# 		p "#{i} is an even number"
+# 	else
+# 		p "#{i} is odd number"
+# 	end
+# end
+
+###
+## For Loop to iterate over an array.
+## Array - list or collection of string, integer and so on
+
+# city_array = ["New York","New Jersey","Washington D.C","Chicago","Los Angeles"]
+
+# for i in city_array
+# 	puts "City: #{i}"
+# end
+
+##
+# for i in city_array
+# 	if i == "Chicago"
+# 		puts "Welcome to My City: #{i}"
+# 	end
+# end
 
 
-###################
-## While Loop
+###############################################################
+# While Loop - While loop executes until the condition is true.
 
 # x = 10
 # number = 0
@@ -76,8 +93,8 @@ end
 # end
 
 
-###################
-## Until Loop
+#######################################
+#Until Loop - Opposite of While Loop
 
 # x = 0 
 # number = 10
@@ -87,6 +104,20 @@ end
 # 	x += 1
 # end
 
+
+#########
+
+## Iteration
+## times - Only can be used in integers
+
+10.times do
+	puts "Hello Ruby"
+end
+##
+p "----------------"
+10.times {
+	puts "Hello Ruby"
+}
 
 
 
