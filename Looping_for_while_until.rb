@@ -110,17 +110,38 @@
 ## Iteration
 ## times - Only can be used in integers
 
-10.times do
-	puts "Hello Ruby"
-end
+# 10.times do
+# 	puts "Hello Ruby"
+# end
+
+###
+
+# p "----------------"
+# 10.times {
+# 	puts "Hello Ruby"
+# }
+
+#########################
+
+# Each loop - Used Primarily in array and hashes
+
+# counties_array = ["polk","fairfax","orange","dustin"]
+
+# for county in counties_array
+# 	p "county: #{county}"
+# end
+
 ##
-p "----------------"
-10.times {
-	puts "Hello Ruby"
+
+# counties_array.each do |county|
+# 	p "county: #{county}"
+# end
+
+
+alphabet = ["a","b","c","d","e"]
+
+alphabet.each { |letter|
+	p "Letter is #{letter}"
 }
-
-
-
-
 
 
