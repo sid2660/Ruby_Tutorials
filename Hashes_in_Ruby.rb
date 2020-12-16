@@ -16,7 +16,14 @@ Hashes
 
 ##
 # Example 2:
-ssn = {"George" => 123232, "Mary" => 343422, "Sam" => 213434, "Randy" => 324567}
+# ssn = {"George" => 123232, "Mary" => 343422, "Sam" => 213434, "Randy" => 324567}
 
-p ssn["Mary"]
-p ssn["Randy"]
+# p ssn["Mary"]
+# p ssn["Randy"]
+
+# print ssn.keys
+# print ssn.values
+
+##
+students = {1 => "Ashley", 2 => "Max" , 3 => "Matt", 4 => "Scott", 5 => "Chris"}
+puts students[3]
