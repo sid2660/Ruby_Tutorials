@@ -92,28 +92,49 @@
 
 ###################
 
-def print_state_full_abbr(state)
-	case(state.upcase)
-		when "AK"
-			p "Alaska"
-		when "AL"
-			p "Alabama"
-		when "AR"
-			p "Arkansas"
-		when "CA"
-			p "California"
-		when "VA"
-			p "Virginia"
-		when "NY"
-			p "New York"
-		when "DC"
-			p "Washington D.C"
-		else
-			p "Invalid State"
-	end
+# def print_state_full_abbr(state)
+# 	case(state.upcase)
+# 		when "AK"
+# 			p "Alaska"
+# 		when "AL"
+# 			p "Alabama"
+# 		when "AR"
+# 			p "Arkansas"
+# 		when "CA"
+# 			p "California"
+# 		when "VA"
+# 			p "Virginia"
+# 		when "NY"
+# 			p "New York"
+# 		when "DC"
+# 			p "Washington D.C"
+# 		else
+# 			p "Invalid State"
+# 	end
+# end
+
+# print_state_full_abbr("AK")
+# print_state_full_abbr("CA")
+# print_state_full_abbr("VA")
+
+###########_____________________________________#######################
+#_________Methods Without default value___________________
+
+# def prog_language(p1, p2)
+# 	puts "The programing language 1 is: #{p1}"
+# 	puts "The programing language 2 is: #{p2}"
+# end
+
+# prog_language("Java","Ruby")
+# prog_language("Ruby")
+
+#___________Method with default value_________________
+
+
+def prog_language(p1="C++", p2)
+	puts "The programing language 1 is: #{p1}"
+	puts "The programing language 2 is: #{p2}"
 end
 
-print_state_full_abbr("AK")
-print_state_full_abbr("CA")
-print_state_full_abbr("VA")
-
+prog_language("Java","Ruby")
+prog_language("Ruby")
