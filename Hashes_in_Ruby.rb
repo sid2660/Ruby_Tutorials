@@ -25,5 +25,16 @@ Hashes
 # print ssn.values
 
 ##
-students = {1 => "Ashley", 2 => "Max" , 3 => "Matt", 4 => "Scott", 5 => "Chris"}
-puts students[3]
+# students = {1 => "Ashley", 2 => "Max" , 3 => "Matt", 4 => "Scott", 5 => "Chris"}
+# puts students[3]
+
+###
+# Find the key using the value
+
+ssn = {"George Michael" => 123232, "Mary Smith" => 243433, "Sam Johnson" => 2134434, "Randy David" => 2134343, "Abc" => 123232}
+
+puts ssn.key(243433)
+puts ssn.key(123232)
+puts ssn.key(1232323)
+puts ssn.key(123232)
+puts ssn["Abc"]
