@@ -91,11 +91,9 @@ puts "______________________________"
 labrador = Dog.new
 
 labrador.name_of_dog("Max")
-labrador.bark
+labrador.bark 
 labrador.eat
 labrador.sleep
-
-
 
 
 
