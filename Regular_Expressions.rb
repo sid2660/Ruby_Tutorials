@@ -32,5 +32,20 @@
 #        '-----------------------------'-----------------------------------------------------'
 
 
+#_______________________________ Examples: __________________________________________
 
+string1 = 'Automobile'
+string2 = 'Automechanic'
+string3 = 'Mechanic Auto'
+string4 = 'AutokadfgfgwfMechanic'
+string5 = 'Autokjfdgfskgvcgmobile'
 
+def reg_match_with_word(string1,string2)
+	if string1 =~ /#{string2}/
+		puts "String Matches"
+	else
+        puts "No Matches"
+        end
+end
+
+reg_match_with_word(string1,string2)
