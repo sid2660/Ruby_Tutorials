@@ -39,6 +39,7 @@ string2 = 'Automechanic'
 string3 = 'Mechanic Auto'
 string4 = 'AutokadfgfgwfMechanic'
 string5 = 'Autokjfdgfskgvcgmobile'
+string6 = 'automobile'
 
 def reg_match_with_word(string1,string2)
 	if string1 =~ /#{string2}/
@@ -49,3 +50,20 @@ def reg_match_with_word(string1,string2)
 end
 
 reg_match_with_word(string1,string2)
+reg_match_with_word(string1,string6.capitalize)
+
+puts "---------------------------------------------------------"
+##________________________________________________________
+
+def reg_match_beginning_word(string1, regExPattern)
+	if string1 =~ /^#{regExPattern}/
+		puts "String begins with #{regExPattern}"
+	else
+		puts "No Match"
+	end
+end
+
+reg_match_beginning_word(string1,"Auto")
+
+
+
