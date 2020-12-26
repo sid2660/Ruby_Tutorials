@@ -41,29 +41,41 @@ string4 = 'AutokadfgfgwfMechanic'
 string5 = 'Autokjfdgfskgvcgmobile'
 string6 = 'automobile'
 
-def reg_match_with_word(string1,string2)
-	if string1 =~ /#{string2}/
-		puts "String Matches"
-	else
-        puts "No Matches"
-        end
-end
+# def reg_match_with_word(string1,string2)
+# 	if string1 =~ /#{string2}/
+# 		puts "String Matches"
+# 	else
+#         puts "No Matches"
+#         end
+# end
 
-reg_match_with_word(string1,string2)
-reg_match_with_word(string1,string6.capitalize)
+# reg_match_with_word(string1,string2)
+# reg_match_with_word(string1,string6.capitalize)
 
-puts "---------------------------------------------------------"
-##________________________________________________________
+# puts "---------------------------------------------------------"
+# ##________________________________________________________
 
-def reg_match_beginning_word(string1, regExPattern)
-	if string1 =~ /^#{regExPattern}/
-		puts "String begins with #{regExPattern}"
+# def reg_match_beginning_word(string1, regExPattern)
+# 	if string1 =~ /^#{regExPattern}/
+# 		puts "String begins with #{regExPattern}"
+# 	else
+# 		puts "No Match"
+# 	end
+# end
+
+# reg_match_beginning_word(string1,"Auto")
+
+
+##____________________________________________________
+
+def reg_match_starts_with_and_end_with_word(string,regExPattern1,regExPattern2)
+	if string =~ /^#{regExPattern1}.*#{regExPattern2}$/
+		puts "#{string} ends with #{regExPattern} RegEx Pattern"
 	else
 		puts "No Match"
 	end
 end
 
-reg_match_beginning_word(string1,"Auto")
-
-
-
+reg_match_starts_with_and_end_with_word(string1,"Auto","Mechanic")
+reg_match_starts_with_and_end_with_word(string2,"Auto","Mechanic")
+reg_match_starts_with_and_end_with_word(string3,"Auto","Mechanic")
