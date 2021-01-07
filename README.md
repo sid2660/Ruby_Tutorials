@@ -32,4 +32,6 @@ ________________________________________________________________________________
                                  |11.| Ruby Methods                     |
                                  |12.| What are Ruby Classes            |
                                  |13.| Regular Expressions              |
+                                 |14.| Ruby Variables Type              |
+                                 |15.| Ruby as an OOP                   |
                                  '---'----------------------------------'
