@@ -125,64 +125,81 @@
 
 
 
-
-
-
-
-
+#----------------------------------------------------------------------------
 
 #-------- Parent/Base Class
 
-class Box
-	def initalize(w,h)
-		@width = w
-		@height = h
-	end
+# class Box
+# 	def initalize(w,h)
+# 		@width = w
+# 		@height = h
+# 	end
 	
-	def display_box_name
-		puts "I am box class"
-	end
-end
+# 	def display_box_name
+# 		puts "I am box class"
+# 	end
+# end
 
-#-------- Child Class
+# #-------- Child Class
 
-class SmallBox < Box
-	def print_area
-		@area = @width * @height
-		puts "Area of the small box is #{@area}"
-	end
+# class SmallBox < Box
+# 	def print_area
+# 		@area = @width * @height
+# 		puts "Area of the small box is #{@area}"
+# 	end
 	
-	def display_price
-		puts "My price is 1200"
-	end
-end
+# 	def display_price
+# 		puts "My price is 1200"
+# 	end
+# end
 
-#--------  BigBox
+# #--------  BigBox
 
-class BigBox < Box
-	def initialize(v,w,h)
-		@volume = v
-		@width = w
-		@height = h
-	end
+# class BigBox < Box
+# 	def initialize(v,w,h)
+# 		@volume = v
+# 		@width = w
+# 		@height = h
+# 	end
 	
-	def print_area
-		@area = @width * @height * @volume
-		puts "Big box area is #{@area}"
-	end
-end
+# 	def print_area
+# 		@area = @width * @height * @volume
+# 		puts "Big box area is #{@area}"
+# 	end
+# end
 
 
-p "----------- Box ----------------"
-b1 = Box.new
-b1.display_box_name
+# p "----------- Box ----------------"
+# b1 = Box.new
+# b1.display_box_name
 
-p "------------ Small box -----------"
-b2 = SmallBox.new
-b2.display_box_name
-b2.display_price
+# p "------------ Small box -----------"
+# b2 = SmallBox.new
+# b2.display_box_name
+# b2.display_price
 
-p"-------------- Big Box ------------"
-b3 = BigBox.new(10,20,30)
-b3.display_box_name
-b3.print_area  
+# p"-------------- Big Box ------------"
+# b3 = BigBox.new(10,20,30)
+# b3.display_box_name
+# b3.print_area  
+
+
+#------------------------------------------------------------------------------------------------------
+#------------------------------------------------  Polymorphism ---------------------------------------
+
+# > Polymorphism derives from the Greek word "Poly" meaning much or many form or shape.
+# > Polymorphism in programming refers to the ability to use same methods in different ways 
+#   for different objects or data types.
+
+
+
+#                                              Vehicle
+#                                                 |
+#                                                 |
+#                        .------------------------.-------------------------------.
+#                        |                        |                               |
+#                       SUV                     Semi                            Motorbike
+#                     > start()               > start()                       > start()
+#                     > stop()                > stop()                        > stop()
+
+
