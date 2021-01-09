@@ -62,13 +62,13 @@ module C
 		puts "I am c1"
 	end
 	def c2
-		puts " I am c2"
+		puts "I am c2"
 	end
 end
 
 module D
 	def d1
-		puts " I am d1"
+		puts "I am d1"
 	end
 end
 
