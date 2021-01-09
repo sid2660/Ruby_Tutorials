@@ -203,3 +203,54 @@
 #                     > stop()                > stop()                        > stop()
 
 
+#--------------------------------------------------------------------------------------------
+
+class Vehicle
+	def initialize(make,model,year)
+		@make = make
+		@model = model
+		@year = year
+	end
+	
+	def start
+		puts "Vehicle starting"
+	end
+	
+	def stop
+		puts "Vehicle Stopping"
+	end
+end
+
+class SUV < Vehicle
+	def start
+		puts "SUV Vehicle Make : #{@make},Model : #{@model} and Year : #{@year} starting"
+	end
+	
+	def stop
+		puts "SUV Vehicle Make : #{@make},Model : #{@model} and Year : #{@year} stopping"
+	end
+end
+
+class Semi < Vehicle
+	def start
+		puts "Semi Vehicle Make : #{@make},Model : #{@model} and Year : #{@year} starting"
+	end
+	
+	def stop
+		puts "Semi Vehicle Make : #{@make},Model : #{@model} and Year : #{@year} stopping"
+	end
+end
+
+# Creating an Object
+V = Vehicle.new("abc","top",2021)
+V.start
+
+p "------------------- SUV ---------------"
+
+v2 = SUV.new("abc","top",2020)
+v2.start
+
+p "----------------- Semi -----------------"
+
+v3 = Semi.new('ABC','Base',2021)
+v3.stop
